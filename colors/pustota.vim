@@ -46,3 +46,29 @@ hi DiffText     guifg=#ff8f40 guibg=NONE
 hi SignColumn   guibg=NONE
 hi Folded       guifg=#626a73 guibg=NONE
 hi FoldColumn   guifg=#626a73 guibg=NONE
+
+hi ColorColumn  guibg=#00010a
+hi Whitespace   guifg=#4d5566 guibg=NONE
+
+hi link NormalFloat Normal
+hi link FloatBorder Normal
+hi link SpecialKey NonText
+hi link LineNrAbove LineNr
+hi link LineNrBelow LineNr
+
+let g:terminal_color_0  = '#00010a'
+let g:terminal_color_1  = '#ea6c73'
+let g:terminal_color_2  = '#91b362'
+let g:terminal_color_3  = '#f9af4f'
+let g:terminal_color_4  = '#53bdfa'
+let g:terminal_color_5  = '#fae994'
+let g:terminal_color_6  = '#90e1c6'
+let g:terminal_color_7  = '#c7c7c7'
+let g:terminal_color_8  = '#686868'
+let g:terminal_color_9  = '#f07178'
+let g:terminal_color_10 = '#c2d94c'
+let g:terminal_color_11 = '#ffb454'
+let g:terminal_color_12 = '#59c2ff'
+let g:terminal_color_13 = '#ffee99'
+let g:terminal_color_14 = '#95e6cb'
+let g:terminal_color_15 = '#ffffff'
