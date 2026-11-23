@@ -6,14 +6,15 @@
   <img src="imgs/pylight.png" alt="light python example" width="900">
 </p>
 
-1. copy a theme file to  ~/.vim/colors/:
+1. copy a theme file to  ~/.vim/colors/:
     ```bash
     mkdir -p ~/.vim/colors
-    cp pustota.vim ~/.vim/colors/
+    cp colors/pustota_dark.vim ~/.vim/colors/
     ```
-2. add to your  ~/.vimrc:
+2. add to your  ~/.vimrc:
     ```vim
+    syntax on
     set termguicolors
-    colorscheme pustota_dark " or light version
+    colorscheme pustota_dark " or pustota_light
     ```
-4. restart vim
+3. restart vim

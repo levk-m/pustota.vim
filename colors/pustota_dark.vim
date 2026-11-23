@@ -56,6 +56,19 @@ hi link SpecialKey NonText
 hi link LineNrAbove LineNr
 hi link LineNrBelow LineNr
 
+hi Structure guifg=#b3b1ad guibg=NONE
+hi Type      guifg=#b3b1ad guibg=NONE  
+
+hi pythonBuiltin       guifg=#b3b1ad guibg=NONE
+hi pythonExceptions    guifg=#b3b1ad guibg=NONE
+hi pythonDecoratorName guifg=#b3b1ad guibg=NONE
+hi pythonBoolean       guifg=#e6b450 guibg=NONE
+hi pythonConstant      guifg=#e6b450 guibg=NONE
+hi pythonEllipsis      guifg=#e6b450 guibg=NONE
+hi pythonAnnotations   guifg=#b3b1ad guibg=NONE
+hi pythonException     guifg=#b3b1ad guibg=NONE
+hi pythonClass         guifg=#59c2ff guibg=NONE   
+
 let g:terminal_color_0  = '#00010a'
 let g:terminal_color_1  = '#ea6c73'
 let g:terminal_color_2  = '#91b362'
