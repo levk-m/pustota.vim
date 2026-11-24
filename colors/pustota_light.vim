@@ -56,12 +56,15 @@ hi link SpecialKey NonText
 hi link LineNrAbove LineNr
 hi link LineNrBelow LineNr
 
-hi pythonBuiltin       guifg=#181b1f guibg=NONE
+hi pythonBuiltin       guifg=#000000 guibg=NONE
 hi pythonExceptions    guifg=#181b1f guibg=NONE
-hi pythonDecoratorName guifg=#181b1f guibg=NONE
+hi pythonDecoratorName guifg=#000000 guibg=NONE
 hi pythonBoolean       guifg=#ab8600 guibg=NONE
 hi pythonConstant      guifg=#ab8600 guibg=NONE
 hi pythonEllipsis      guifg=#ab8600 guibg=NONE
+hi pythonClass         guifg=#000000 guibg=NONE
+hi pythonType          guifg=#000000 guibg=NONE
+hi pythonOperator      guifg=#ff9900 guibg=NONE
 
 let g:terminal_color_0  = '#000000'
 let g:terminal_color_1  = '#ea6c6d'
